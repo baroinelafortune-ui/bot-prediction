@@ -1,0 +1,28 @@
+pandas
+scikit-learn
+sqlite3
+requests
+```text
+   pandas
+   scikit-learn
+   sqlite3
+   requests
+   
+   ```
+```
+*   *Note : Si vous voyez d'autres noms de bibliothèques dans le code de Manus, ajoutez-les aussi.*
+
+### 2. Importez ce fichier sur GitHub
+*   Allez sur votre dépôt GitHub.
+*   Cliquez sur **"Ajouter un fichier"** (ou le bouton `+` -> "Téléverser des fichiers").
+*   Glissez votre nouveau fichier **`requirements.txt`** et validez en cliquant sur le bouton vert **"Valider les modifications"**.
+
+### 3. Pourquoi cela va changer les choses ?
+*   Dès que vous ajoutez ce fichier, Railway va le détecter.
+*   Au lieu de simplement essayer de lancer `main.py`, Railway va lire `requirements.txt` et installer automatiquement tout ce dont le bot a besoin avant de démarrer.
+
+**Faites cela et regardez à nouveau vos "Deploy Logs" sur Railway.** S'il y a encore une erreur, elle sera différente et beaucoup plus précise (comme "Missing library"), ce qui nous permettra de la corriger définitivement.
+
+Est-ce que vous voyez le bouton pour ajouter un fichier sur GitHub pour y déposer ce `requirements.txt` ?
+
+```
